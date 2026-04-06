@@ -1,0 +1,31 @@
+{
+  "name": "five-step-method",
+  "displayName": "Five-Step Work Method",
+  "version": "1.0.0",
+  "description": "Universal decision framework based on Musk's five-step methodology. Teaches AI agents to question requirements, delete complexity, and simplify before acting — whether writing code, making product decisions, planning strategy, or designing processes. Prevents over-engineering, unnecessary meetings, premature automation, and scope creep.",
+  "author": "OpenLucid",
+  "license": "MIT",
+  "homepage": "https://github.com/agidesigner/five-step-method",
+  "repository": "https://github.com/agidesigner/five-step-method",
+  "keywords": [
+    "decision-framework",
+    "engineering-discipline",
+    "five-step-method",
+    "requirement-analysis",
+    "simplification",
+    "ai-skill",
+    "code-review",
+    "product-management"
+  ],
+  "platforms": [
+    "claude-code",
+    "cursor",
+    "windsurf",
+    "cline",
+    "codex",
+    "openclaw"
+  ],
+  "installation": {
+    "claude-code": "cp -r .claude/skills/five-step-method ~/.claude/skills/"
+  }
+}
