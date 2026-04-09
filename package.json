@@ -27,13 +27,13 @@
   ],
   "author": "Ajin (OpenLucid)",
   "license": "MIT",
-  "homepage": "https://github.com/agidesigner/five-step-method",
+  "homepage": "https://github.com/agidesigner/five-step-method-skill",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/agidesigner/five-step-method.git"
+    "url": "git+https://github.com/agidesigner/five-step-method-skill.git"
   },
   "bugs": {
-    "url": "https://github.com/agidesigner/five-step-method/issues"
+    "url": "https://github.com/agidesigner/five-step-method-skill/issues"
   },
   "engines": {
     "node": ">=16"
