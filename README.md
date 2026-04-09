@@ -1,5 +1,12 @@
 # Five-Step Work Method
 
+[![npm version](https://img.shields.io/npm/v/five-step-method.svg?color=cb3837&logo=npm&logoColor=white)](https://www.npmjs.com/package/five-step-method)
+[![npm downloads](https://img.shields.io/npm/dm/five-step-method.svg?color=cb3837)](https://www.npmjs.com/package/five-step-method)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![GitHub stars](https://img.shields.io/github/stars/agidesigner/five-step-method-skill?style=social)](https://github.com/agidesigner/five-step-method-skill/stargazers)
+
+> If this skill helps your AI agents make better decisions, **give it a ⭐ on [GitHub](https://github.com/agidesigner/five-step-method-skill)** — every star helps another team avoid over-engineering and scope creep.
+
 An engineering decision framework for AI coding agents, based on Elon Musk's five-step methodology. Battle-tested through a real production deployment cycle.
 
 ## What It Does
@@ -48,21 +55,21 @@ If you'd rather copy files yourself:
 #### Claude Code
 
 ```bash
-git clone https://github.com/agidesigner/five-step-method.git
-cp -r five-step-method/.claude/skills/five-step-method ~/.claude/skills/
+git clone https://github.com/agidesigner/five-step-method-skill.git
+cp -r five-step-method-skill/.claude/skills/five-step-method ~/.claude/skills/
 ```
 
 #### OpenClaw
 
 ```bash
-git clone https://github.com/agidesigner/five-step-method.git
-cp -r five-step-method/skills/five-step-method /path/to/openclaw/skills/
+git clone https://github.com/agidesigner/five-step-method-skill.git
+cp -r five-step-method-skill/skills/five-step-method /path/to/openclaw/skills/
 ```
 
 #### Codex (OpenAI)
 
 ```bash
-cp five-step-method/AGENTS.md /path/to/your/project/AGENTS.md
+cp five-step-method-skill/AGENTS.md /path/to/your/project/AGENTS.md
 ```
 
 #### Cursor / Windsurf / Cline
@@ -101,6 +108,22 @@ After applying this method, the same problems were solved with single-line confi
 **Ajin** — [@ajinpro](https://x.com/ajinpro)
 
 Founder @ [Jogg.ai](http://jogg.ai) | Building AI for Marketing
+
+## Show Your Support
+
+If the Five-Step Method has saved you from over-engineering, scope creep, or shipping the wrong feature, here's how you can help others find it:
+
+- **⭐ Star this repo** — the single biggest signal that helps other developers discover it on GitHub
+- **Share it** with teammates who use Claude Code, Cursor, Windsurf, Cline, or Codex
+- **Use it in your own projects** — `npx five-step-method` and tell people where you got it
+- **Open an issue** with feedback, bug reports, or new agent integrations
+- **Tweet about it** and tag [@ajinpro](https://x.com/ajinpro)
+
+Every star pushes this skill into more developers' workflows — and every prevented over-engineered feature is a small win for the whole industry.
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=agidesigner/five-step-method-skill&type=Date)](https://star-history.com/#agidesigner/five-step-method-skill&Date)
 
 ## License
 
