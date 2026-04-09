@@ -1,6 +1,6 @@
 {
   "name": "five-step-method",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Universal decision framework skill for AI coding agents, based on Musk's five-step methodology. One-command install for Claude Code, Cursor, Windsurf, Cline, and Codex.",
   "bin": {
     "five-step-method": "bin/install.js"
