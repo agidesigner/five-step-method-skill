@@ -18,29 +18,54 @@ Most decisions end at Step 3.
 
 ## Install
 
-### Claude Code
+### Quick install (recommended) — one command
+
+Auto-detects which AI agents you have and installs the skill into the right place. No clone, no manual file copying.
+
+```bash
+npx five-step-method
+```
+
+Want to target a specific agent only?
+
+```bash
+npx five-step-method claude-code   # → ~/.claude/skills/five-step-method
+npx five-step-method cursor        # → ./.cursor/rules/five-step-method.md
+npx five-step-method windsurf      # → ./.windsurfrules
+npx five-step-method cline         # → ./.clinerules
+npx five-step-method codex         # → ./AGENTS.md
+npx five-step-method --list        # show all supported targets
+```
+
+The installer is idempotent — running it twice won't duplicate content. For Windsurf/Cline, it wraps the skill in `<!-- five-step-method:begin/end -->` markers so it doesn't clobber your existing rules.
+
+> Published as [`five-step-method`](https://www.npmjs.com/package/five-step-method) on npm.
+
+### Manual install
+
+If you'd rather copy files yourself:
+
+#### Claude Code
 
 ```bash
 git clone https://github.com/agidesigner/five-step-method.git
 cp -r five-step-method/.claude/skills/five-step-method ~/.claude/skills/
 ```
 
-### OpenClaw
+#### OpenClaw
 
 ```bash
 git clone https://github.com/agidesigner/five-step-method.git
 cp -r five-step-method/skills/five-step-method /path/to/openclaw/skills/
 ```
 
-### Codex (OpenAI)
-
-Copy `AGENTS.md` to your project root:
+#### Codex (OpenAI)
 
 ```bash
 cp five-step-method/AGENTS.md /path/to/your/project/AGENTS.md
 ```
 
-### Cursor / Windsurf / Cline
+#### Cursor / Windsurf / Cline
 
 Copy the content of `SKILL.md` into your project's custom instructions file (`.cursorrules`, `.windsurfrules`, or agent system prompt).
 

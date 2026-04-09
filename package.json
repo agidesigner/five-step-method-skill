@@ -1,0 +1,41 @@
+{
+  "name": "five-step-method",
+  "version": "1.0.0",
+  "description": "Universal decision framework skill for AI coding agents, based on Musk's five-step methodology. One-command install for Claude Code, Cursor, Windsurf, Cline, and Codex.",
+  "bin": {
+    "five-step-method": "bin/install.js"
+  },
+  "files": [
+    "bin",
+    "skills",
+    "AGENTS.md",
+    "skill.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "claude-code",
+    "claude-skill",
+    "skill",
+    "cursor",
+    "windsurf",
+    "cline",
+    "codex",
+    "ai-agent",
+    "decision-framework",
+    "five-step-method"
+  ],
+  "author": "Ajin (OpenLucid)",
+  "license": "MIT",
+  "homepage": "https://github.com/agidesigner/five-step-method",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agidesigner/five-step-method.git"
+  },
+  "bugs": {
+    "url": "https://github.com/agidesigner/five-step-method/issues"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
