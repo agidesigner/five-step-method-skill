@@ -1,7 +1,7 @@
 {
   "name": "five-step-method",
   "displayName": "Five-Step Work Method",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Universal decision framework based on Musk's five-step methodology. Teaches AI agents to question requirements, delete complexity, and simplify before acting — whether writing code, making product decisions, planning strategy, or designing processes. Prevents over-engineering, unnecessary meetings, premature automation, and scope creep.",
   "author": "OpenLucid",
   "license": "MIT",
@@ -26,6 +26,7 @@
     "openclaw"
   ],
   "installation": {
-    "claude-code": "cp -r .claude/skills/five-step-method ~/.claude/skills/"
+    "claude-code": "cp -r skills/five-step-method ~/.claude/skills/",
+    "openclaw": "cp -r skills/five-step-method /path/to/openclaw/skills/"
   }
 }
